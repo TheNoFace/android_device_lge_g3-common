@@ -115,6 +115,7 @@ BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 BOARD_USES_QC_TIME_SERVICES := true
 
 # TWRP Support - Optional
-ifeq ($(WITH_TWRP),true)
--include device/lge/g3-common/twrp.mk
-endif
+#ifeq ($(WITH_TWRP),true)
+#-include device/lge/g3-common/twrp.mk
+#endif
+include device/lge/g3-common/twrp.mk
