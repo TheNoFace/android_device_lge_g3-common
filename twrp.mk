@@ -19,4 +19,6 @@ TW_INCLUDE_NTFS_3G := true
 TW_FLASH_FROM_STORAGE := true
 TW_NO_SCREEN_BLANK := true
 TW_INCLUDE_CRYPTO := true
+TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
 TWRP_INCLUDE_LOGCAT := true
